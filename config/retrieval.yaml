@@ -1,0 +1,16 @@
+num_epochs: 10000
+learning_rate: 0.0001
+batch_size: 32
+num_workers: 8
+device: cuda
+eval_every: 10
+save_every: 50
+
+model_params:
+    node_size: 64
+    hidden_size: 128
+    graph_emb_size: 128
+    T: 5
+    embedding_dim: 128
+    num_mixtures: 10
+    margin: 20

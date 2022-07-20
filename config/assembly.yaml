@@ -1,0 +1,9 @@
+  device : cuda
+  use_symmetry : True #Use slot symmetry
+  skip_failure : True
+  no_duplicate : False #No adjacent parts can come from the same shape
+  duplicate_last : False #They can but only when nothing else is viable
+  opt_attempts : 5
+  node_threshold : 20
+  model_root_dir: pretrained
+  test_size: -1
